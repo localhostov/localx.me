@@ -22,8 +22,6 @@ body, html, #root {
 
 #root {
     color: #ffffff;
-    overflow: hidden;
-    -webkit-overflow-scrolling: touch;
 }
 
 #root canvas {
@@ -31,4 +29,5 @@ body, html, #root {
     position: fixed;
     z-index: -1;
     top: 0;
+    overflow: hidden;
 }
