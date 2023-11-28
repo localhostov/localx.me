@@ -22,6 +22,7 @@ body, html, #root {
 
 #root {
     color: #ffffff;
+    position: relative;
 }
 
 #root canvas {
