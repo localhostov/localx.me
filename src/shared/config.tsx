@@ -19,14 +19,14 @@ export const config: IConfig = {
         },
         {
             id: 3,
-            url: "https://gtihub.com/localhostov",
+            url: "https://github.com/localhostov",
             title: "GitHub",
             caption: "@localhostov",
             icon: <Github />,
         },
         {
             id: 4,
-            url: "https://gtihub.com/localhostov",
+            url: "https://github.com/localhostov",
             title: "GitHub 2nd",
             caption: "@localhostov2",
             icon: <Github />,
