@@ -6,14 +6,14 @@ export const config: IConfig = {
         {
             id: 1,
             url: "https://t.me/localhostov",
-            title: "Telegram канал",
+            title: "Telegram channel",
             caption: "@localhostov",
             icon: <TelegramIcon />,
         },
         {
             id: 2,
             url: "https://t.me/lolchs",
-            title: "Telegram ЛС",
+            title: "Telegram account",
             caption: "@lolchs",
             icon: <TelegramIcon />,
         },
