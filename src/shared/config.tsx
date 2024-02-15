@@ -26,20 +26,13 @@ export const config: IConfig = {
         },
         {
             id: 4,
-            url: "https://github.com/localhostov",
-            title: "GitHub 2nd",
-            caption: "@localhostov2",
-            icon: <Github />,
-        },
-        {
-            id: 5,
             url: "https://discordapp.com/users/805158509645398096",
             title: "Discord",
             caption: "@localhostov",
             icon: <Discord />,
         },
         {
-            id: 6,
+            id: 5,
             url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
             title: "Onlyfans",
             caption: "@localhostov",
