@@ -14,7 +14,7 @@ export const config: IConfig = {
             id: 2,
             url: "https://t.me/lolchs",
             title: "Telegram account",
-            caption: "@lolchs",
+            caption: "@locxlx",
             icon: <TelegramIcon />,
         },
         {
