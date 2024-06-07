@@ -12,7 +12,7 @@ export const config: IConfig = {
         },
         {
             id: 2,
-            url: "https://t.me/lolchs",
+            url: "https://t.me/locxlx",
             title: "Telegram account",
             caption: "@locxlx",
             icon: <TelegramIcon />,
