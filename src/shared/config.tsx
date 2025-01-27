@@ -12,9 +12,9 @@ export const config: IConfig = {
         },
         {
             id: 2,
-            url: "https://t.me/locxlx",
+            url: "https://t.me/localxxl",
             title: "Telegram account",
-            caption: "@locxlx",
+            caption: "@localxxl",
             icon: <TelegramIcon />,
         },
         {
