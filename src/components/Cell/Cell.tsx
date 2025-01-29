@@ -1,7 +1,7 @@
 import { ReactElement } from "react"
 import styles from "./styles.module.css"
 
-interface IProps {
+interface CellProps {
     title: string
     caption: string
     before?: ReactElement
@@ -9,7 +9,7 @@ interface IProps {
     action?: () => void
 }
 
-export const Cell = ({ title, caption, before, after, action }: IProps) => {
+export const Cell = ({ title, caption, before, after, action }: CellProps) => {
     return (
         <div
             className={`${styles.container} ${

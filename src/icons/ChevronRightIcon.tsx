@@ -1,10 +1,10 @@
-import { IIconProps } from "@shared"
+import { IconProps } from "@shared"
 
-export const ChevronRight = ({
+export const ChevronRightIcon = ({
     width = 24,
     height = 24,
     color = "#FFFFFF",
-}: IIconProps) => {
+}: IconProps) => {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"

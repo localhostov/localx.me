@@ -1,9 +1,9 @@
 import { Cell } from "@components"
-import { ChevronRight } from "@icons"
+import { ChevronRightIcon } from "@icons"
 import { config } from "@shared"
 import styles from "./styles.module.css"
 
-export const Main = () => {
+export const MainPage = () => {
     const networks = config.networks.map((item, index) => (
         <div key={`network-${item.id}`}>
             <Cell
@@ -11,7 +11,7 @@ export const Main = () => {
                 caption={item.caption}
                 before={item.icon}
                 action={() => window.open(item.url, "_blank")}
-                after={<ChevronRight />}
+                after={<ChevronRightIcon width={28} height={28} />}
             />
 
             {index !== config.networks.length - 1 && (
@@ -22,12 +22,10 @@ export const Main = () => {
 
     return (
         <div className={styles.container}>
-            <div className={styles.text}>
-                <div className={styles.name}>Alexander Localhostov</div>
-                <div>Me in social media</div>
-            </div>
-
-            <div style={{ height: 24 }} />
+            <center>
+                <h2 className={styles.name}>Alexander Localhostov</h2>
+                <p className={styles.nameCaption}>My accounts</p>
+            </center>
 
             <div className={styles.networksContainer}>{networks}</div>
         </div>

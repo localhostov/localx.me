@@ -1,0 +1,41 @@
+.container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2rem;
+}
+
+.nameCaption {
+    font-size: 1.1rem;
+    color: var(--text-secondary-color);
+}
+
+.networksContainer {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    width: 600px;
+    margin: 0 16px;
+}
+
+.networkDivider {
+    height: 1px;
+    background: var(--background-color);
+    opacity: .7;
+    /* 24px - cell horizontal padding, 32px - cell gap, 28px - cell icon size  */
+    margin-left: calc(24px + 32px + 28px);
+}
+
+@media screen and (max-width: 620px) {
+    .networksContainer {
+        width: auto;
+    }
+
+    .container {
+        align-items: stretch;
+    }
+}

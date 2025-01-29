@@ -1,6 +1,6 @@
 import { ReactElement } from "react"
 
-interface INetwork {
+interface Network {
     id: number
     url: string
     title: string
@@ -9,10 +9,10 @@ interface INetwork {
 }
 
 export interface IConfig {
-    networks: INetwork[]
+    networks: Network[]
 }
 
-export interface IIconProps {
+export interface IconProps {
     width?: number
     height?: number
     color?: string

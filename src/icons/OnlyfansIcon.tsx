@@ -1,10 +1,10 @@
-import { IIconProps } from "@shared"
+import { IconProps } from "@shared"
 
-export const Onlyfans = ({
+export const OnlyfansIcon = ({
     width = 24,
     height = 24,
     color = "#FFFFFF",
-}: IIconProps) => {
+}: IconProps) => {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"

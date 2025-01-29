@@ -1,18 +1,26 @@
 .container {
-    padding: 16px;
+    padding: 20px 24px;
     display: flex;
-    gap: 16px;
+    gap: 32px;
+    transition: .3s ease all;
     align-items: center;
-    transition: 0.3s all ease;
+}
+
+.body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 
 .title {
-    font-weight: 600;
-    font-size: 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .caption {
-    font-size: 14px;
+    font-size: 1rem;
+    color: var(--text-secondary-color);
 }
 
 .clickableContainer {
@@ -24,15 +32,11 @@
 }
 
 .before {
-    width: 24px;
-    height: 24px;
+    width: 28px;
+    height: 28px;
 }
 
 .after {
-    width: 24px;
-    height: 24px;
-}
-
-.body {
-    flex :1;
+    width: 28px;
+    height: 28px;
 }
