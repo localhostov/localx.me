@@ -11,14 +11,14 @@
 }
 
 .nameCaption {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: var(--text-secondary-color);
 }
 
 .networksContainer {
     background: rgba(255, 255, 255, 0.05);
     border-radius: 20px;
-    width: 600px;
+    width: 500px;
     margin: 0 16px;
 }
 
@@ -26,11 +26,11 @@
     height: 1px;
     background: var(--background-color);
     opacity: .7;
-    /* 24px - cell horizontal padding, 32px - cell gap, 28px - cell icon size  */
-    margin-left: calc(24px + 32px + 28px);
+    /* 24px - cell horizontal padding, cell gap, cell icon size  */
+    margin-left: calc(24px + 24px + 24px);
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 520px) {
     .networksContainer {
         width: auto;
     }

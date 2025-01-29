@@ -1,7 +1,7 @@
 import { DiscordIcon, GithubIcon, OnlyfansIcon, TelegramIcon } from "@icons"
 import { IConfig } from "./types"
 
-const iconSizePx = 28
+const iconSizePx = 24
 
 export const config: IConfig = {
     networks: [

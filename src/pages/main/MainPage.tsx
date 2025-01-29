@@ -11,7 +11,7 @@ export const MainPage = () => {
                 caption={item.caption}
                 before={item.icon}
                 action={() => window.open(item.url, "_blank")}
-                after={<ChevronRightIcon width={28} height={28} />}
+                after={<ChevronRightIcon width={24} height={24} />}
             />
 
             {index !== config.networks.length - 1 && (
@@ -23,7 +23,7 @@ export const MainPage = () => {
     return (
         <div className={styles.container}>
             <center>
-                <h2 className={styles.name}>Alexander Localhostov</h2>
+                <h3>Alexander Localhostov</h3>
                 <p className={styles.nameCaption}>My accounts</p>
             </center>
 
